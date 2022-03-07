@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Alert } from 'react-native';
+import GameView from './views/gameView';
+import game from './views/gameView'
 
 export default function App() {
   return (
@@ -11,6 +13,7 @@ export default function App() {
         
       }}/>
       <Text>test</Text>
+      <GameView name ="game"/>
     </View>
   );
 }
